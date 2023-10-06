@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+    <div class="header">
+        <div class="heading">
+        <img src="weather-cloudy.svg" alt="cloud">
+        <h1>Weather</h1>
+        </div>
+        <form action="#">
+            <label for="search">Search</label>
+            <input type="text" id="search">
+            <img src="magnify.svg" alt="search" id="magnify">
+        </form>
+    </div>
+    <div class="body">
+        <div class="temp">
+            <h1>Temp</h1>
+            <p></p>
+        </div>
+        <div class="humid">
+            <h1>Humidity</h1>
+            <p></p>
+        </div>
+        <div class="wind">
+            <h1>Wind speed</h1>
+            <p></p>
+        </div>
+        <div class="press">
+            <h1 >Pressure</h1>
+            <p></p>
+        </div>
+        <div class="forecast">
+            <h1>Forecast</h1>
+            <div class="k">
+                <p class="firstp"></p>
+                <img  id="first">
+                <p class="firstmaxtemp"></p>
+                <p class="firstavgtemp"></p>
+                
+            </div>
+            <div>
+            <p class="secondp"></p>
+            <img id="second">
+            <p class="secondmaxtemp"></p>
+                <p class="secondavgtemp"></p>
+            </div>
+            <div>
+            <p class="thirdp"></p>
+            <img id="third">
+            <p class="thirdmaxtemp"></p>
+            <p class="thirdavgtemp"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
